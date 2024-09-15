@@ -1,1 +1,5 @@
-kubectl delete -f - deployment.yaml
+
+set -u # or set -o nounset
+: "$NAME"
+
+envsubst < ./scripts/${NAME}.yaml | kubectl delete -f -
