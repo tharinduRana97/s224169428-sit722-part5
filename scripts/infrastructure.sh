@@ -4,7 +4,7 @@
 set -e
 
 # Navigate to the Terraform directory
-cd terraform
+cd .script/terraform
 
 # Initialize Terraform
 echo "Initializing Terraform..."
