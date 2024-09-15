@@ -5,7 +5,7 @@
 # For real use you might want to restrict this to the "prod" branch.
 #
 
-name: Deploy history
+name: Deploy inventory management
 
 on:
   #
