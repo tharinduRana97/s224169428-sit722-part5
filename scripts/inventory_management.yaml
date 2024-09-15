@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: inventory-management
-          image: s224169428registry.azurecr.io/inventory_management:latest
+          image: $CONTAINER_REGISTRY/inventory_management:$VERSION
           imagePullPolicy: Always
           ports:
             - containerPort: 7000
