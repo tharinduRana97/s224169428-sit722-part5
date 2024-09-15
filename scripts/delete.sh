@@ -1,1 +1,1 @@
-# Your Solution
+kubectl delete -f - deployment.yaml
